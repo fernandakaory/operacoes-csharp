@@ -50,13 +50,13 @@ namespace Fiap.Operacoes
                 Console.WriteLine($"Ambos positivos {ambosPositivos}");
                 Console.WriteLine($"Nenhum número é negativo? {nenhumNegativo}");
                 
-                if(Directory.Exists("C:/arquivosProcessar"))
+                if(Directory.Exists(@"C:/arquivosProcessar"))
                 {
                     Console.WriteLine("Pasta Existe");
                 } else
                 {
                     Console.WriteLine("Pasta não existe");
-                    Directory.CreateDirectory("C:/arquivosProcessar");
+                    Directory.CreateDirectory(@"C:/arquivosProcessar");
                 }
 
 
